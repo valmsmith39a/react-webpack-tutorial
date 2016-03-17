@@ -1,6 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import AwesomeComponent from './AwesomeComponent.jsx';
+import AnotherComponent from './AnotherComponent.jsx';
 
 class App extends React.Component {
   render () {
@@ -8,6 +9,7 @@ class App extends React.Component {
       <div>
         <p> HELLO React!!!!! </p>
         <AwesomeComponent />
+        <AnotherComponent />
       </div>
       );
   }
